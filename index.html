@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myStore">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>AngularJS Estore</title>
+
+    <script   src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script data-require="angular.js@1.2.10" data-semver="1.2.10" src="http://code.angularjs.org/1.2.10/angular.js"></script>
+    <script src="http://angular-ui.github.io/ui-router/release/angular-ui-router.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/heroic-features.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+<header ng-include src="'header.html'"></header>
+
+    <!-- Page Content -->
+    <div class="container">
+        <div ui-view autoscroll="true"></div> <!-- Load the View Here -->   
+    </div>
+
+    <footer ng-include="'footer.html'"></footer>
+    </div>
+    <!-- /.container -->
+
+    <script src="app.js"></script>
+    <script src="controller/homeCtrl.js"></script>
+    <script src="controller/productgalleryCtrl.js"></script>
+    <script src="controller/productCtrl.js"></script>
+    <script src="controller/aboutCtrl.js"></script>
+    <script src="controller/contactusCtrl.js"></script>
+
+</body>
+
+</html>

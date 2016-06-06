@@ -1,0 +1,64 @@
+        <div class="row">
+            <div class="col-md-3">
+                <p class="lead">Shop Name</p>
+                <div class="list-group">
+                    <a href="#" class="list-group-item active">{{item.name}}</a>
+                </div>
+            </div>
+
+            <div class="col-md-9">
+
+                <div class="thumbnail">
+                    <img class="img-responsive" ng-src="{{item.image}}" alt="">
+                    <div class="caption-full">
+                        <h4 class="pull-right">{{item.price | currency}}</h4>
+                        <h4><a href="#">Product Description</a>
+                        </h4>
+                        <p>{{item.description}}</p>
+                    </div>
+                    <div class="ratings">
+                        <p class="pull-right">3 reviews</p>
+                        <p>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                            4.0 stars
+                        </p>
+                    </div>
+                </div>
+
+                <div class="well">
+
+                    <div class="text-right">
+                        <a class="btn btn-success">Leave a Review</a>
+                    </div>
+
+                    <hr>
+
+                    <div class="row" ng-repeat="review in item.reviews">
+                        <div class="col-md-12" >
+                            <span ng-class="review.stars > 0 ? 'glyphicon-star' :'glyphicon-star-empty'" class="glyphicon"></span>
+                            <span ng-class="review.stars > 1 ? 'glyphicon-star' :'glyphicon-star-empty'" class="glyphicon glyphicon-star"></span>
+                            <span ng-class="review.stars > 2 ? 'glyphicon-star' :'glyphicon-star-empty'" class="glyphicon glyphicon-star"></span>
+                            <span ng-class="review.stars > 3 ? 'glyphicon-star' :'glyphicon-star-empty'" class="glyphicon glyphicon-star"></span>
+                            <span ng-class="review.stars > 4 ? 'glyphicon-star' :'glyphicon-star-empty'" class="glyphicon glyphicon-star-empty"></span>
+                            {{review.author}}
+                            <span class="pull-right">10 days ago</span>
+                            <p>{{review.body}}</p>
+                        <hr ng-if="($index+1)%3==0">
+                        </div>
+                    </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+    

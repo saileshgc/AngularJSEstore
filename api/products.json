@@ -1,0 +1,332 @@
+[
+{
+"id":1,
+"name":"Ibanez",
+"description":"Ibanez is a Japanese guitar brand owned by Hoshino Gakki. Based in Nagoya, Aichi, Japan, Hoshino Gakki were one of the first Japanese musical instrument companies to gain a significant foothold in import guitar sales in the United States and Europe.",
+"images":"img/ibanez.jpg",
+"products":  
+[
+  {
+    "pid":1,
+    "name": "Ibanez RGA",
+    "description": "Nothing breathes inspiration into your playing like the feel of a precision made instrument, capable of interpreting your every move with power and accuracy. Enter the Ibanez RGA—a solid body specifically built to handle the heaviest, most physically demanding music you can conjure up. The RGA's unique, sleekly sculpted top offers unrestricted playability for full-thottle power chording or heavy riffing without fear of digging into the body.",
+    "price": 310.50,
+    "color": "#CCC",
+    "image": "img/ibanez/ibanezRGA.jpg",
+    "reviews": [
+      {
+        "stars": 5,
+        "body": "I love this guitar!",
+        "author": "joe@thomas.com",
+        "createdOn": 1397490980837
+      }, 
+      {
+        "stars": 1,
+        "body": "This guitar sucks.",
+        "author": "tim@hater.com",
+        "createdOn": 1397490980837
+      }
+    ]
+  }, 
+  {
+    "pid":2,
+    "name": "Ibanez S",
+    "description": "The cutting edge of Ibanez design, the S series continues to be a marvel of form and function. Its signature body shape - sculpted, lightweight, and mahogany - is stronger and more musically responsive than guitars weighing twice as much. The S series is still a rock 'n' roll version of a quick, graceful, and potentially lethal weapon.",
+    "price": 422.90,
+    "color": "#EEE",
+    "image": "img/ibanez/ibanezS.jpg",
+    "reviews": [
+    {
+      "stars": 3,
+      "body": "I think this guitar was just OK, could honestly use more shine, IMO.",
+      "author": "JimmyDean@sausage.com",
+      "createdOn": 1397490980837
+    }, 
+    {
+      "stars": 4,
+      "body": "This guitar is just for me!",
+      "author": "gemsRock@alyssaNicoll.com",
+      "createdOn": 1397490980837
+    }
+    ]
+  },
+   {
+    "pid":3,
+    "name": "Ibanez AR",
+    "description": "he AR is a classic among Ibanez guitars. It was one of the first original designs produced by Ibanez and continues to be a sought after guitar. The AR series continues that legacy with pride.",
+    "price": 1100,
+    "color": "#000",
+    "image": "img/ibanez/ibanezAR.jpg",
+    "reviews": [
+    {
+      "stars": 1,
+      "body": "This guitar is WAY too expensive for its rarity value.",
+      "author": "turtleguyy@zdn.me",
+      "createdOn": 1397490980837
+    }, 
+    {
+      "stars": 1,
+      "body": "High Quality guitar.",
+      "author": "LouisW407@gmail.com",
+      "createdOn": 1397490980837
+    },
+     {
+      "stars": 1,
+      "body": "Don't waste your rubles!",
+      "author": "nat@flatland.com",
+      "createdOn": 1397490980837
+    }
+    ]
+    }
+  ]
+},
+{
+"id":2,
+"name":"ESP",
+"description":"ESP is a Japanese guitar manufacturer, primarily focused on the production of electric guitars and basses. They are based in both Japan and Los Angeles, California, USA, with two distinct product lines for each respective market.",
+"images":"img/esp.jpg",
+"products":  
+[
+  {
+    "pid":1,
+    "name": "ESP Eclipse",
+    "description": "Sometimes you don’t have to wait for a guitar to become a classic. For instance, take a look at the ESP USA Eclipse QM in Vintage Natural finish. It’s the single-cutaway guitar of everyone’s dreams, with a flawlessly finished quilted maple top and creme binding around the entire body, neck, and headstock. Its set-thru neck allows the highest level of speed and comfort while accessing the entire fingerboard.",
+    "price": 110.50,
+    "color": "#CCC",
+    "image": "img/esp/esp_eclipse.jpg",
+    "reviews": [
+      {
+        "stars": 5,
+        "body": "This guitar is really expensive dude!",
+        "author": "doe@thomas.com",
+        "createdOn": 1397490980837
+      }, 
+      {
+        "stars": 4,
+        "body": "This ESP is my fav!",
+        "author": "tim@hater.com",
+        "createdOn": 1397490980837
+      }
+    ]
+  }, 
+  {
+    "pid":2,
+    "name": "ESP Horizon",
+    "description": "For many years, the Horizon has been known as a guitar designed for serious players. With the USA Horizon, musicians of every genre from metal to jazz fusion will appreciate the fine craftsmanship that goes into each guitar. Available in three translucent finishes that look spectacular over hand-chosen quilted maple tops — Amber Sunburst, See Thru Aqua, and See Thru Black — the USA Horizon offers premier-class features such as set-thru construction with a smooth neck heel and an arched top body contour.",
+    "price": 22.90,
+    "color": "#EEE",
+    "image": "img/esp/esp_horizon.jpg",
+    "reviews": [
+    {
+      "stars": 3,
+      "body": "I think this guitar was just OK, could be better lol.",
+      "author": "Jimmy@sausage.com",
+      "createdOn": 1397490980837
+    }, 
+    {
+      "stars": 5,
+      "body": "This rocks my world!",
+      "author": "gemsRock@alyssaNicoll.com",
+      "createdOn": 1397490980837
+    }
+    ]
+  },
+   {
+    "pid":3,
+    "name": "ESP LTD",
+    "description": "A great starter guitar for anyone who intends to rock and rock hard, the LTD F-50 has the angular, aggressive look that is perfect for metal, progressive rock, and other musical styles. It has a comfortable basswood body, a fast maple neck, and a rosewood fingerboard with 24 XJ frets. It includes good-sounding passive ESP Designed LH-150 pickups. The F-50 is available in both Black Cherry and Black finishes.",
+    "price": 1100,
+    "color": "#000",
+    "image": "img/esp/esp_ltd.jpg",
+    "reviews": [
+    {
+      "stars": 1,
+      "body": "Love it !! Its Awesome.",
+      "author": "turtleguyy@zdn.me",
+      "createdOn": 1397490980837
+    }, 
+    {
+      "stars": 4,
+      "body": "Rocks my room all the time.",
+      "author": "LouisW407@gmail.com",
+      "createdOn": 1397490980837
+    },
+     {
+      "stars": 1,
+      "body": "Don't waste your money honey!",
+      "author": "nat@flatland.com",
+      "createdOn": 1397490980837
+    }
+    ]
+    }
+  ]
+},
+{
+"id":3,
+"name":"Fender",
+"description":" commonly referred to simply as Fender, is an American manufacturer of stringed instruments and amplifiers. It is known for its solid-body electric guitars and bass guitars, such as the Stratocaster (also known as the 'Strat'), Telecaster (also known as the 'Tele'), Precision Bass, and the Jazz Bass.",
+"images":"img/fender.jpg",
+"products":  
+[
+  {
+    "pid":1,
+    "name": "Fender Stratocaster",
+    "description": "The U.S.-made flagship of the Stratocaster lineup, as beautiful as it is functional. This is the go-to Strat model—the latest iteration of a time-honored classic crafted for those who appreciate and aspire to pure Fender style and quality. An instrument at the very heart of Fender, the American Standard Stratocaster is where the real thing starts, built with the very essence of great Stratocaster tone, phenomenal feel and peerless performance.",
+    "price": 110.50,
+    "color": "#CCC",
+    "image": "img/fender/fender_stratocaster.jpg",
+
+    "reviews": [
+      {
+        "stars": 5,
+        "body": "I love this guitar!",
+        "author": "bob@thomas.com",
+        "createdOn": 1397490980837
+      }, 
+      {
+        "stars": 1,
+        "body": "Fender Strat is not my cup of tea.",
+        "author": "fender@hater.com",
+        "createdOn": 1397490980837
+      }
+    ]
+  }, 
+  {
+    "pid":2,
+    "name": "Fender Telecaster",
+    "description": "For modern guitarists who want heavy and aggressive tone from Fender’s original workhorse instrument, the Standard Telecaster HH deliver massive high-gain power from two Blacktop open-coil humbucking pickups with chrome/black bobbins and black bezels. Stylish and supercharged.",
+    "price": 22.90,
+    "color": "#EEE",
+    "image": "img/fender/fender_telecaster.jpg",
+
+    "reviews": [
+    {
+      "stars": 3,
+      "body": "I think this guitar was just OK, could honestly use more shine, IMO.",
+      "author": "JimmyDean@sausage.com",
+      "createdOn": 1397490980837
+    }, 
+    {
+      "stars": 4,
+      "body": "Rocks my room!",
+      "author": "gemsRock@alyssaNicoll.com",
+      "createdOn": 1397490980837
+    }
+    ]
+  },
+   {
+    "pid":3,
+    "name": "Fender Kurt Cobain Jaguar",
+    "description": "Return to the dark intensity and huge guitar sounds of the grunge rock movement with the Kurt Cobain Jaguar, a new-looking version of the battered and highly unusual 1965 Jaguar that Cobain wielded during the heady early-’90s era when Nirvana ruled rock and led a musically stunning and culturally subversive movement. It authentically evokes the modified left-handed Jaguar.",
+    "price": 1100,
+    "color": "#000",
+    "image": "img/fender/fender_kurt.jpg",
+
+    "reviews": [
+    {
+      "stars": 1,
+      "body": "I love Kurt Cobain YAY.",
+      "author": "turtleguyy@zdn.me",
+      "createdOn": 1397490980837
+    }, 
+    {
+      "stars": 1,
+      "body": "JAG STANG Smells like a teen spirit.",
+      "author": "LouisW407@gmail.com",
+      "createdOn": 1397490980837
+    },
+     {
+      "stars": 1,
+      "body": "Don't waste your money!",
+      "author": "nat@flatland.com",
+      "createdOn": 1397490980837
+    }
+    ]
+    }
+  ]
+},
+{
+"id":4,
+"name":"Schecter Guitar Research",
+"description":"Schecter Guitar Research, commonly known simply as Schecter, is a US guitar, bass and amplifier manufacturer. The company was founded in 1976 by David Schecter and originally produced only replacement parts for existing guitars from manufacturers such as Fender and Gibson",
+"images":"img/schecter.jpg",
+"products":  
+[
+  {
+    "pid":1,
+    "name": "Schecter DJ Ashba",
+    "description": "Custom designed by Dj ASHBA and built by Schecter Guitars. Loaded with EMG 81 / Sustainiac Pick-ups. Maple Neck. Ebony Fretboard. Mother of Pearl Custom Crow inlays. Kill Switch. 3-way pick-up selector. Grover tuners. EVH D-Tuna / Floyd Rose and a custom set of DJA Signature Dean Markley Strings (coming soon). And much more! This thing is a BEAST!.",
+    "price": 110.50,
+    "color": "#CCC",
+    "image": "img/schecter/schecter_dj.jpg",
+
+    "reviews": [
+      {
+        "stars": 5,
+        "body": "I love this schecter!",
+        "author": "joe@thomas.com",
+        "createdOn": 1397490980837
+      }, 
+      {
+        "stars": 1,
+        "body": "This guitar sucks dude.",
+        "author": "tim@hater.com",
+        "createdOn": 1397490980837
+      }
+    ]
+  }, 
+  {
+    "pid":2,
+    "name": "Schecter Hollywood Classic",
+    "description": "his guitar sounds great and handles everything I throw at it with ease. This is more than just a rock monster as with the coil tap and other.",
+    "price": 22.90,
+    "color": "#EEE",
+    "image": "img/schecter/schecter_hollywood.jpg",
+
+    "reviews": [
+    {
+      "stars": 3,
+      "body": "I think this guitar was just OK, could honestly use more shine, Its all about the shine.",
+      "author": "JimmyDean@sausage.com",
+      "createdOn": 1397490980837
+    }, 
+    {
+      "stars": 4,
+      "body": "Any guitar with 6 string is for me!",
+      "author": "gemsRock@alyssaNicoll.com",
+      "createdOn": 1397490980837
+    }
+    ]
+  },
+   {
+    "pid":3,
+    "name": "Schecter Avenger",
+    "description": "Looking for a killer deal on a serious metal guitar? Here's what you've been waiting for: the Schecter Blackjack SLS Avenger FR-S. The Blackjack SLS Avenger FR-S solidbody electric guitar gives you the high-end features you want, at a price that's almost too good to be true. First, feast your eyes on that flamed maple top. Not only does it look amazing, but you'll hear the difference this top-end touch adds. Now, add on a Seymour Duncan Sustainiac neck pickup, and you've got high-flying solo tones that last for days... literally.",
+    "price": 1100,
+    "color": "#000",
+     "image": "img/schecter/schecter_avenger.jpg",
+
+    "reviews": [
+    {
+      "stars": 1,
+      "body": "Where's Spider Man?? Isnt he with Avenger now?.",
+      "author": "turtleguyy@zdn.me",
+      "createdOn": 1397490980837
+    }, 
+    {
+      "stars": 1,
+      "body": "I am in LOVE with this beast.",
+      "author": "LouisW407@gmail.com",
+      "createdOn": 1397490980837
+    },
+     {
+      "stars": 1,
+      "body": "Don't waste your money honey!",
+      "author": "nat@flatland.com",
+      "createdOn": 1397490980837
+    }
+    ]
+    }
+  ]
+}
+]
